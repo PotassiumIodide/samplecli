@@ -1,0 +1,5 @@
+[package]
+name = "hello"
+version = "0.1.0"
+authors = ["PotassiumIodide <imamura.suuri@gmail.com>"]
+edition = "2018"

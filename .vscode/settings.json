@@ -1,0 +1,4 @@
+{
+    "nixEnvSelector.nixShellConfig": "${workspaceRoot}/default.nix",
+    "rust-client.engine": "rust-analyzer"
+}
