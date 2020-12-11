@@ -1,5 +1,5 @@
 [package]
-name = "hello"
+name = "samplecli"
 version = "0.1.0"
-authors = ["PotassiumIodide <imamura.suuri@gmail.com>"]
+authors = ["PotassiumIodide <potassium.iodide28@gmail.com>"]
 edition = "2018"
