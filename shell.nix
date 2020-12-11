@@ -4,7 +4,7 @@ let
 in
   with pkgs;
   stdenv.mkDerivation {
-    name = "hello";
+    name = "samplecli";
     buildInputs = [
       cargo
       rustc
