@@ -1,7 +1,10 @@
+
 let
   pkgs = import <nixpkgs> {};
+in
+  with pkgs;
   stdenv.mkDerivation {
-    name = "samplecli";
+    name = "hello";
     buildInputs = [
       cargo
       rustc
