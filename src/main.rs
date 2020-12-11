@@ -19,6 +19,18 @@ struct Opts {
   formula_file: Option<String>,
 }
 
+struct RpnCalculator(bool);
+
+impl RpnCalculator {
+  pub fn new(verbose: bool) -> Self {
+    Self(verbose);
+  }
+
+  pub fn eval(&self, formula: &str) -> i32 {
+    0
+  }
+}
+
 fn main() {
   let opts = Opts::parse();
 
